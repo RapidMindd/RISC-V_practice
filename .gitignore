@@ -4,3 +4,5 @@ systeminfo
 procinfo
 hello_as
 hello.o
+draw.o
+draw
