@@ -15,17 +15,17 @@ extern void vSendString(const char * const pcString);
 #define LED_COUNT  ((MAX_LEDS_AVAILABLE > (2 + (LAB_A % 4))) ? \
                     MAX_LEDS_AVAILABLE : (2 + (LAB_A % 4)))
 
-#define LED1_PERIOD   (LAB_A * BASE_TICKS)                   /*  400 */
-#define LED2_PERIOD   (LED1_PERIOD + LAB_B * BASE_TICKS)    /* 2200 */
-#define LED3_PERIOD   (LED2_PERIOD + LAB_B * BASE_TICKS)    /* 4000 */
-#define LED4_PERIOD   (LED3_PERIOD + LAB_B * BASE_TICKS)    /* 5800 */
-#define LED5_PERIOD   (LED4_PERIOD + LAB_B * BASE_TICKS)    /* 7600 */
+#define LED1_PERIOD   (LAB_A * BASE_TICKS)
+#define LED2_PERIOD   (LED1_PERIOD + LAB_B * BASE_TICKS)
+#define LED3_PERIOD   (LED2_PERIOD + LAB_B * BASE_TICKS)
+#define LED4_PERIOD   (LED3_PERIOD + LAB_B * BASE_TICKS)
+#define LED5_PERIOD   (LED4_PERIOD + LAB_B * BASE_TICKS)
 
-#define LED1_HALF     (LED1_PERIOD / 2)                     /*  200 */
-#define LED2_HALF     (LED2_PERIOD / 2)                     /* 1100 */
-#define LED3_HALF     (LED3_PERIOD / 2)                     /* 2000 */
-#define LED4_HALF     (LED4_PERIOD / 2)                     /* 2900 */
-#define LED5_HALF     (LED5_PERIOD / 2)                     /* 3800 */
+#define LED1_HALF     (LED1_PERIOD / 2)
+#define LED2_HALF     (LED2_PERIOD / 2)
+#define LED3_HALF     (LED3_PERIOD / 2)
+#define LED4_HALF     (LED4_PERIOD / 2)
+#define LED5_HALF     (LED5_PERIOD / 2)
 
 #define TASK_STACK_SIZE   512
 #define TASK_PRIORITY     2

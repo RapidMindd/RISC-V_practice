@@ -6,3 +6,4 @@ hello_as
 hello.o
 draw.o
 draw
+interactive_draw
